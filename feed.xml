@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Podcast</title>
+    <link>https://linzhaoqin.github.io/podcast-feed</link>
+    <description>A personalized AI-generated podcast.</description>
+    <language>en</language>
+    <atom:link href="https://linzhaoqin.github.io/podcast-feed/feed.xml" rel="self" type="application/rss+xml"/>
+    
+
+    <!-- Show artwork -->
+    <image>
+      <url>https://linzhaoqin.github.io/podcast-feed/cover-art.png</url>
+      <title>My Podcast</title>
+      <link>https://linzhaoqin.github.io/podcast-feed</link>
+    </image>
+    <itunes:image href="https://linzhaoqin.github.io/podcast-feed/cover-art.png"/>
+
+    <!-- Podcast player metadata -->
+    <itunes:author>My Podcast</itunes:author>
+    <itunes:summary>A personalized AI-generated podcast.</itunes:summary>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+    
+    <item>
+      <title>From Hierarchy to Intelligence</title>
+      <description>Jack Dorsey's vision for Block: moving from hierarchical management to an AI-powered intelligent organization.</description>
+      <pubDate>Wed, 15 Apr 2026 02:53:57 GMT</pubDate>
+      <enclosure url="https://linzhaoqin.github.io/podcast-feed/episodes/2026-04-10-143433.mp3"
+                 length="7338861"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://linzhaoqin.github.io/podcast-feed/episodes/2026-04-10-143433.mp3</guid>
+      <itunes:duration>7:38</itunes:duration>
+      <itunes:summary>Jack Dorsey's vision for Block: moving from hierarchical management to an AI-powered intelligent organization.</itunes:summary>
+    </item>
+    
+  </channel>
+</rss>
